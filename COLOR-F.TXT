@@ -1,0 +1,28 @@
+--------------------------
+    COLOR pour MSX-DOS
+       v1.0 par GDX
+--------------------------
+
+COLOR est une commande pour MSX-DOS1/2 qui permet de changer les couleurs
+de l'écran sous MSX-DOS de la même manière que l'instruction du Basic.
+
+
+Utilisation:
+
+Entrez la commande sous MSX-DOS comme indiqué ci-dessous.
+
+ COLOR <couleur du texte>, <couleur de l'arrière-plan>, <couleur de la bordure>
+
+Les valeurs doivent être des nombres décimaux (0~15). Les virgules sont
+nécessaires entre chaque paramètre. L'espace entre la commande et la première
+valeur aussi.
+
+Option:
+
+ COLOR /h
+
+L'option /h vous permet d'afficher l'aide.
+
+Notes: - Le fichier COLOR.ASM est le code source de la commande. Il n'est pas
+         nécessaire pour exécuter la commande.
+        - La commande COLOR est incluse dans le MSX-DOS v2.44.
